@@ -61,6 +61,7 @@ gameCounter++  // => 1001
 console.log(gameCounter);
 //gameCounter++;
 //console.log(gameCounter);
+console.log(+ "")
 
 
 
