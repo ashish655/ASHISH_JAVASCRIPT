@@ -71,10 +71,38 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename: "JS in hindi",
+    price: "999",
+    courseInstructor: "Ashish"
+}
 
+// course.courseInstructor
 
+const {courseInstructor: instructor} = course
 
+// console.log(courseInstructor);
+console.log(instructor);
 
+// Destructure in react
+const navbar = ({company}) =>{
 
+}
+
+navbar(company = "Ashish")
+
+// json
+
+// {
+//     name: "Ashish",
+//     coursename: "Js in hindi",
+//     price: "Free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
