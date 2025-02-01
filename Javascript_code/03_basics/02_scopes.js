@@ -35,4 +35,39 @@ function one()
     
 }
 
-one()
+// one()
+
+if (true) {
+    const username = "Ashish"
+    if (username === "Ashish") {
+        const website = " Youtube"
+        console.log(username + website);
+        
+    }
+    //console.log(website);
+    
+}
+
+// console.log(username);
+
+
+
+
+//  +++++++++++++++++++  ineresting  ++++++++++++++++++
+
+console.log(addone(5))
+function addone(num)
+{
+    return num + 1
+}
+
+
+
+// addTwo(5) it throws error for calling before decalring a function  but not in above function 
+
+const addTwo = function(num){
+    return num + 2
+}
+console.log(addTwo(5));
+
+
