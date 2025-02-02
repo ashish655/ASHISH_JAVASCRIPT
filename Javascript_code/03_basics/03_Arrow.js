@@ -3,7 +3,7 @@ const user = {
     price: 999,
 
     welcomeMessage: function(){
-        console.log(`${this.username} , welcome to website`);
+        console.log(`${this.username}, ${this.price} , welcome to website`);
         
     }
 }
@@ -11,3 +11,4 @@ const user = {
 user.welcomeMessage()
 user.username = "sam"
 user.welcomeMessage()
+user.price = 9999
