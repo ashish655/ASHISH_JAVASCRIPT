@@ -6,7 +6,7 @@
     
 })();
 
-( () => {
-    console.log(`DATABASE CONNECTED TWO`);
+( (name) => {
+    console.log(`DATABASE CONNECTED TWO ${name}`);
     
-})()
+})('Ashish')
